@@ -65,3 +65,22 @@
 - Kaba inşaatı bitmiş daire
 ## Soru 4: Eklemek istediğiniz notlar
 - Notlar / Açıklamalar
+
+
+
+# Örnek Form Doldurulduğunda Gelen Bilgiler:
+Gelen bilgiler ```{$IsNo}_{$SoruTuru}_{$SoruNo}_{$SECIM}``` biçiminde kodlanmıştır.
+
+```
+Array
+(
+    [1_1_1_0] => 30
+    [1_2_2_2] => Duvarlara Fayans
+    [1_2_2_3] => Yerlere Fayans
+    [1_3_3_0] => Nuri Akman
+    [1_3_3_1] => nuri@gmail.com
+    [1_3_3_2] => 541-1234567
+    [1_4_4_0] => Telefonla dönüş yapılmasını istiyorum...
+    [formadi] => form1
+)
+```

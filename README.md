@@ -29,7 +29,13 @@
 
 
 
+<<<<<<< HEAD
 # #1:Banyo Tadilatı
+=======
+
+
+# Banyo Tadilatı
+>>>>>>> 0c04972190281798bcd727550f01e84ed2b1bf0a
 ## Soru 1: Banyo kaç metrekare?
 - ( ) 5
 - ( ) 10
@@ -46,6 +52,7 @@
 - Telefonunuz
 ## Soru 4: Eklemek istediğiniz notlar
 - Notlar / Açıklamalar
+<<<<<<< HEAD
 
 
 
@@ -65,3 +72,5 @@
 - Kaba inşaatı bitmiş daire
 ## Soru 4: Eklemek istediğiniz notlar
 - Notlar / Açıklamalar
+=======
+>>>>>>> 0c04972190281798bcd727550f01e84ed2b1bf0a

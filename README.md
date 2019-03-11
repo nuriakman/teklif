@@ -14,7 +14,7 @@
 - Serbest Veri Giriş Sahası 1
 - Serbest Veri Giriş Sahası 2
 - Serbest Veri Giriş Sahası 3
-## Soru 4
+## Soru 4 (Bu tür girişler desteklenmez!)
 - ( ) Çoktan Seçmeli Cevap 1
 - ( ) Çoktan Seçmeli Cevap 2
 - [ ] Çoklu Seçimlik Cevap 1

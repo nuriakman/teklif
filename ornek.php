@@ -66,7 +66,7 @@
     $SECIM = 0;
     foreach($Secenekler as $key => $value) {
       $value = trim($value);
-      echo "<p><input type='radio' name='{$SoruTuru}_{$IsNo}_{$SoruNo}_{$SECIM}' value='$value'>$value</p>\n";
+      echo "<p><input type='radio' name='{$IsNo}_{$SoruTuru}_{$SoruNo}_{$SECIM}' value='$value'>$value</p>\n";
     }
 
 
@@ -77,7 +77,7 @@
     $Secenekler = explode("\n", $Cevap2); // Kullanılan sisteme göre \n veya \r\n olabilir.
     foreach($Secenekler as $SECIM => $value) {
       $value = trim($value);
-      echo "<p><input type='checkbox' name='{$SoruTuru}_{$IsNo}_{$SoruNo}_{$SECIM}' value='$value'>$value</p>\n";
+      echo "<p><input type='checkbox' name='{$IsNo}_{$SoruTuru}_{$SoruNo}_{$SECIM}' value='$value'>$value</p>\n";
     }
 
     // SORU 3 İçin HTML Üretme
@@ -87,7 +87,7 @@
     $Secenekler = explode("\n", $Cevap3); // Kullanılan sisteme göre \n veya \r\n olabilir.
     foreach($Secenekler as $SECIM => $value) {
       $value = trim($value);
-      echo "<p><b class='etiket'>$value : </b><input type='text' name='{$SoruTuru}_{$IsNo}_{$SoruNo}_{$SECIM}' value=''></p>\n";
+      echo "<p><b class='etiket'>$value : </b><input type='text' name='{$IsNo}_{$SoruTuru}_{$SoruNo}_{$SECIM}' value=''></p>\n";
     }
 
     // SORU 3 İçin HTML Üretme
@@ -97,7 +97,7 @@
     $Secenekler = explode("\n", $Cevap4); // Kullanılan sisteme göre \n veya \r\n olabilir.
     foreach($Secenekler as $SECIM => $value) {
       $value = trim($value);
-      echo "<p><b>$value : </b><br><textarea name='{$SoruTuru}_{$IsNo}_{$SoruNo}_{$SECIM}'></textarea></p>\n";
+      echo "<p><b>$value : </b><br><textarea name='{$IsNo}_{$SoruTuru}_{$SoruNo}_{$SECIM}'></textarea></p>\n";
     }
 
     ?>

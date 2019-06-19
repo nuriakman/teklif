@@ -1,6 +1,6 @@
 # TEKLİF
 
-Bu pproje ile https://armut.com/ Sitesindekine benzer bir form oluşturma çalışmasına başladık.
+Bu proje ile https://armut.com/ Sitesindekine benzer bir form oluşturma çalışmasına başladık.
 
 *Proje yarım bırakılmıştır*
 
